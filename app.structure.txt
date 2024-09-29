@@ -1,0 +1,10 @@
+src/
+│
+├── components/
+│   ├── Menu.js
+│   ├── Wheel.js
+│   ├── Screen.js
+│   └── App.css
+│
+├── App.js
+└── index.js

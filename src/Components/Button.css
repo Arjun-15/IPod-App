@@ -1,0 +1,65 @@
+/* Button.css */
+
+  /* Styling for >>| (Next) */
+  .next {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .triangle-right {
+    width: 0;
+    height: 0;
+    border-left: 15px solid gray;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+  }
+  
+  .bar {
+    border: 2px solid gray;
+    margin-left: 1px;
+    margin-top: 0;
+    margin-bottom: 8px;
+  }
+  
+  /* Styling for |<< (Previous) */
+  .previous {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .triangle-left {
+    width: 0;
+    height: 0;
+    border-right: 15px solid gray;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+  }
+    
+  /* Styling for >|| (Play/Pause) */
+  .playpause {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 78%;
+    left: 42%;
+  }
+  
+  .play {
+    width: 0;
+    height: 0;
+    border-left: 15px solid gray;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    margin-right: 5px;
+  }
+  
+  .pause {
+    width: 3px;
+    height: 20px;
+    background-color: gray;
+  }
+  
+  .pause + .pause {
+    margin-left: 5px;
+  }
+  
